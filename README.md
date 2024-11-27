@@ -62,7 +62,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/yourusername/jenv"
+	"github.com/oarkflow/jenv"
 )
 
 type Service struct {
