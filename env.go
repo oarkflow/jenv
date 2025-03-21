@@ -164,7 +164,7 @@ func getEnv(rawValue any) string {
 		}
 		return strings.ReplaceAll(envValue, "'", "")
 	}
-	return strings.ReplaceAll(strValue, "'", "")
+	return strValue
 }
 
 func getEnvValueInt(rawValue any) (int, error) {
